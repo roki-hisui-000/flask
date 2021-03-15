@@ -27,7 +27,7 @@ def search():
     """
     検索画面を表示
     """
-    print("method type:", request.method, "---", session['authentication'])
+    print("[search]method type:", request.method, "---", session['authentication'])
 
     if request.method == "POST":
         return "TODO"
